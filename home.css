@@ -1,0 +1,177 @@
+.logo {
+    border-radius: 100%;
+}
+
+a {
+    margin-left: 20px;
+}
+
+#bimg {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: solid rgb(236, 23, 23) 4px;
+    animation-name: vir1;
+    /* animation-name: vir2; */
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    transition-property: border;
+    transition: all 1s ease-in-out; 
+
+}
+
+h1 {
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    font-style: italic;
+    color: red;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-align: center;
+    border: solid black 1.5px;
+    
+}
+
+.MainContainer {
+    background-color: black;
+}
+
+
+/* IMAGES OF DOMAINS  */
+.img-fluid {
+    border-radius: 20%;
+    margin-left: auto;
+    border: solid whitesmoke 1.5px;
+    height: 250px;
+    width: 300px;
+    transition-property: border;
+    transition: all 1s ease-in-out; 
+    transition-property: height;
+    transition: all .8s ease;
+   
+}
+
+h3 {
+    margin-top: 10px;
+    font-style: italic;
+    position: relative;
+    color: red;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 2px whitesmoke;
+    /* margin-left: 100px; */
+    border: solid black 1.5px;
+}
+
+/* h3{
+    font-style: italic;
+    color: white;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 2px rgb(145, 216, 244);
+    margin-left: 150px;
+    border: solid black 1.5px;
+   }
+
+   h3{
+    font-style: italic;
+    color: red;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 2px whitesmoke;
+    margin-left: 180px;
+    border: solid black 1.5px;
+   } */
+
+#profile{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: solid white 4px;
+   
+
+}
+
+span {
+    font-style: italic;
+    color: white;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 2px red;
+}
+
+h6{
+    color: white;
+}
+.About {
+    text-align: center;
+    color: white;
+    margin-left: 4px;
+}
+/* MEDIA IMAGES FUNCTIONALITY CSS */
+#logoimg {
+    /* border: solid 1px black; */
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+.img-fluide{
+    transition-property: height;
+    transition: all .8s ease;
+}
+
+
+/* ANIMATION FOR BACKGROUND IMAGE */
+@keyframes vir1 {
+    from{
+        height: 200px;
+        width: 200px;
+        border: solid white 3px;
+    }
+    to{
+        height: 350px;
+        width: 350px;
+        border: solid red 4px;
+    }
+}
+
+/* @keyframes vir2 {
+    0%{
+        height: 200px;
+        width: 200px;
+       
+    }
+    50%{
+        height: 300px;
+        width: 300px;
+        border: solid rgb(96, 244, 82) 3px;
+    }
+    80%{
+        height: 400px;
+        width: 400px;
+        border: solid red 4px;
+    }
+} */
+
+.img-fluid:hover{
+    transform: scale(1.1);
+    border: solid red 2px;
+}
+
+#profile:hover{
+    border: solid red 2px;
+    box-shadow: 1px 1px 140px 10px rgb(122, 219, 251);
+}
+.img-fluide:hover{
+    transform: scale(1.2);
+}
+
+#bimg:hover{
+    transform: rotate(360deg);
+}
